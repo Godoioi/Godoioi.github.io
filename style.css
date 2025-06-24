@@ -1,0 +1,119 @@
+/* Configurações gerais e a cor favorita dela */
+body {
+    background-color: #74b4fd46; /* Azul claro bem suave */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.842);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Fonte especial para os títulos */
+h1, h2 {
+    /* FONTE ATUALIZADA */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; /* Deixa o título em negrito (bold) */
+    color: #000000; /* Um tom de azul/verde mais escuro para contraste */
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+}
+
+/* Estilo do Contador de Amor */
+.love-counter {
+    margin-top: 20px;
+}
+
+#contador {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.unidade {
+    background-color: #b2ebf2; /* Azul claro um pouco mais forte */
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.unidade span {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.unidade p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+/* Galeria de Fotos */
+.gallery {
+    margin-top: 40px;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photo-card {
+    background-color: #f1f1f1;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 220px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Garante que a foto não fique distorcida */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.photo-card p {
+    padding: 15px;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #777;
+}
